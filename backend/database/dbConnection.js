@@ -5,6 +5,7 @@ export const dbConnection = ()=>{
         dbName: "RESTAURANT"
     })
     .then(()=>{
+        // a change 
         console.log("Connected to database successfully!");
     })
     .catch((err)=>{
